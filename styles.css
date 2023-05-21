@@ -1,10 +1,13 @@
 .theUniverse{
+    width: auto;
+    height: auto;
     display: block;
     background-color: beige;
 }
 
 .theBody{
     width: 1000px;
+    height: 100vh;
     display: block;
     margin: auto;
     overflow: auto;
@@ -21,30 +24,70 @@
 
 .myTable{
     width: 1000px;
+    height: auto;
+    overflow: auto;
 }
 
 .myName{
     display: inline-block;
     color: bisque;
+    margin-right: auto;
 }
 
-.links{
-    list-style-type: none;
+.Home{
+    position: relative;
+    font-size: 25px;
+    color: bisque;
+    left: 50px;
 }
 
-li{
-    display: inline-block;
+.Home:hover{
+    color: gold;
 }
+
+.Projects{
+    position: relative;
+    font-size: 25px;
+    color: bisque;
+    left: 100px;
+}
+
+.Projects:hover{
+    color: gold;
+}
+
+.Blog{
+    position: relative;
+    font-size: 25px;
+    color: bisque;
+    left: 150px;
+}
+
+.Blog:hover{
+    color: gold;
+}
+
+.Contact{
+    position: relative;
+    font-size: 25px;
+    color: bisque;
+    left: 200px;
+}
+
+.Contact:hover{
+    color: gold;
+}
+
 .myInfo{
     position: relative;
     list-style-type: none;
     color: bisque;
-    left: 375px;
+    left: 175px;
 }
 
 .UMN_logo{
     display: block;
     width: 40%;
-    height: 50%;
+    height: 40%;
     margin-left: auto;
 }
