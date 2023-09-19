@@ -56,14 +56,14 @@
     color: gold;
 }
 
-.Blog{
+.myResume{
     position: relative;
     font-size: 25px;
     color: bisque;
     left: 150px;
 }
 
-.Blog:hover{
+.myResume:hover{
     color: gold;
 }
 
